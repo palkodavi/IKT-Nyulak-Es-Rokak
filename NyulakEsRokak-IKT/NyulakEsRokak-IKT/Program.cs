@@ -46,4 +46,47 @@ class Program
     static List<Entitas> rokak = new List<Entitas>();
     static Random random = new Random();
 
+    static void Main()
+    {
+        Inicializalas();
+        while (true)
+        {
+            Console.Clear();
+            Racsrendszer();
+            Frissites();
+            Thread.Sleep(6000);
+        }
+    }
+
+    //Entitások hozzáadása
+    static void Inicializalas()
+    {
+        for (int x = 0; x < szelesseg; x++)
+        {
+            for (int y = 0; y < magassag; y++)
+            {
+                grid[x, y] = Cellak.Fukezdeny;
+            }
+        }
+
+        for (int i = 0; i < 3; i++)
+        {
+            nyulak.Add(new Entitas(random.Next(szelesseg), random.Next(magassag)));
+        }
+
+        for (int i = 0; i < 2; i++)
+        {
+            rokak.Add(new Entitas(random.Next(szelesseg), random.Next(magassag)));
+        }
+    }
+
+    static void Racsrendszer()
+    {
+        throw new NotImplementedException();
+    }
+
+    static void Frissites()
+    {
+        throw new NotImplementedException();
+    } 
 }

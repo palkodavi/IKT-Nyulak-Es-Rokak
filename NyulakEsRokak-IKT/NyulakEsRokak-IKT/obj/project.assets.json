@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Felhasznalo\\Asztal\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT.csproj",
+      "projectUniqueName": "E:\\Felhasznalo\\Asztal\\IKT-Nyulak-Es-Rokak\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT.csproj",
       "projectName": "NyulakEsRokak-IKT",
-      "projectPath": "E:\\Felhasznalo\\Asztal\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT.csproj",
+      "projectPath": "E:\\Felhasznalo\\Asztal\\IKT-Nyulak-Es-Rokak\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT.csproj",
       "packagesPath": "C:\\Users\\Felhasznalo\\.nuget\\packages\\",
-      "outputPath": "E:\\Felhasznalo\\Asztal\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT\\obj\\",
+      "outputPath": "E:\\Felhasznalo\\Asztal\\IKT-Nyulak-Es-Rokak\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Felhasznalo\\AppData\\Roaming\\NuGet\\NuGet.Config",
