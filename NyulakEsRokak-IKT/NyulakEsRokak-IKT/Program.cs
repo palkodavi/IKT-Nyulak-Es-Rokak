@@ -82,7 +82,39 @@ class Program
 
     static void Racsrendszer()
     {
-        throw new NotImplementedException();
+        for (int y = 0; y < magassag; y++)
+        {
+            for (int x = 0; x < szelesseg; x++)
+            {
+                char cellChar;
+                switch (grid[x, y])
+                {
+                    case Cellak.Fukezdeny:
+                        cellChar = 'F';
+                        break;
+                    case Cellak.ZsengeFu:
+                        cellChar = 'Z';
+                        break;
+                    case Cellak.KifejlettFucsomo:
+                        cellChar = 'K';
+                        break;
+                    case Cellak.Nyul:
+                        cellChar = 'N';
+                        break;
+                    case Cellak.Roka:
+                        cellChar = 'R';
+                        break;
+                    case Cellak.Ures:
+                        cellChar = '-';
+                        break;
+                    default:
+                        cellChar = '?';
+                        break;
+                }
+                Console.Write(cellChar + "\t");
+            }
+            Console.WriteLine();
+        }
     }
 
     static void Frissites()
