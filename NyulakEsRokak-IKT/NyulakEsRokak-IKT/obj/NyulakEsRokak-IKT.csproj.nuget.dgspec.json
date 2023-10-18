@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Felhasznalo\\Asztal\\IKT-Nyulak-Es-Rokak\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT.csproj": {}
+    "C:\\Users\\adika\\Documents\\GitHub\\IKT-Nyulak-Es-Rokak\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT.csproj": {}
   },
   "projects": {
-    "E:\\Felhasznalo\\Asztal\\IKT-Nyulak-Es-Rokak\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT.csproj": {
+    "C:\\Users\\adika\\Documents\\GitHub\\IKT-Nyulak-Es-Rokak\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Felhasznalo\\Asztal\\IKT-Nyulak-Es-Rokak\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT.csproj",
+        "projectUniqueName": "C:\\Users\\adika\\Documents\\GitHub\\IKT-Nyulak-Es-Rokak\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT.csproj",
         "projectName": "NyulakEsRokak-IKT",
-        "projectPath": "E:\\Felhasznalo\\Asztal\\IKT-Nyulak-Es-Rokak\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT.csproj",
-        "packagesPath": "C:\\Users\\Felhasznalo\\.nuget\\packages\\",
-        "outputPath": "E:\\Felhasznalo\\Asztal\\IKT-Nyulak-Es-Rokak\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT\\obj\\",
+        "projectPath": "C:\\Users\\adika\\Documents\\GitHub\\IKT-Nyulak-Es-Rokak\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT.csproj",
+        "packagesPath": "C:\\Users\\adika\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adika\\Documents\\GitHub\\IKT-Nyulak-Es-Rokak\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Felhasznalo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adika\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

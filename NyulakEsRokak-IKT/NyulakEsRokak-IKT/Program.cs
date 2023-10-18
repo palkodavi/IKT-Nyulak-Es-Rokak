@@ -119,6 +119,67 @@ class Program
 
     static void Frissites()
     {
-        throw new NotImplementedException();
+        List<Entitas> ujNyula = new List<Entitas>();
+        List<Entitas> ujRoka = new List<Entitas>();
+
+        foreach (var nyul in nyulak)
+        {
+            NyulLep(nyul, ujNyula);
+        }
+
+        foreach (var roka in rokak)
+        {
+            RokaLep(roka, ujRoka);
+        }
+
+        nyulak.AddRange(ujNyula);
+        rokak.AddRange(ujRoka);
+
+        // Az élőlények éheznek!
+        foreach (var nyul in nyulak)
+        {
+            nyul.Jollakottsag--;
+        }
+
+        foreach (var roka in rokak)
+        {
+            roka.Jollakottsag--;
+        }
+
+        // Entitások irtása, ha a jóllakottsági szintjük 0 vagy annál kisebb
+        nyulak.RemoveAll(n => n.Jollakottsag <= 0);
+        rokak.RemoveAll(r => r.Jollakottsag <= 0);
+
+        // Új entitások elhelyezése a rácsmezőben
+        grid = new Cellak[szelesseg, magassag];
+        foreach (var nyul in nyulak)
+        {
+            grid[nyul.X, nyul.Y] = Cellak.Nyul;
+        }
+
+        foreach (var roka in rokak)
+        {
+            grid[roka.X, roka.Y] = Cellak.Roka;
+        }
+
+        // Fű növekedése -- nem megfelelő működés, kifejlett fű nem lesz belőle (segítség kérés!)
+        for (int x = 0; x < szelesseg; x++)
+        {
+            for (int y = 0; y < magassag; y++)
+            {
+                switch (grid[x, y])
+                {
+                    case Cellak.Fukezdeny:
+                        grid[x, y] = Cellak.ZsengeFu;
+                        break;
+                    case Cellak.ZsengeFu:
+                        grid[x, y] = Cellak.KifejlettFucsomo;
+                        break;
+                    case Cellak.KifejlettFucsomo:
+                        grid[x, y] = Cellak.Fukezdeny;
+                        break;
+                }
+            }
+        }
     } 
 }
