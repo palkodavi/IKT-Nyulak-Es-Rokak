@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adika\\Documents\\GitHub\\IKT-Nyulak-Es-Rokak\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT.csproj": {}
+    "C:\\Users\\Pippo\\Documents\\GitHub\\IKT-Nyulak-Es-Rokak\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adika\\Documents\\GitHub\\IKT-Nyulak-Es-Rokak\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT.csproj": {
+    "C:\\Users\\Pippo\\Documents\\GitHub\\IKT-Nyulak-Es-Rokak\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adika\\Documents\\GitHub\\IKT-Nyulak-Es-Rokak\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT.csproj",
+        "projectUniqueName": "C:\\Users\\Pippo\\Documents\\GitHub\\IKT-Nyulak-Es-Rokak\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT.csproj",
         "projectName": "NyulakEsRokak-IKT",
-        "projectPath": "C:\\Users\\adika\\Documents\\GitHub\\IKT-Nyulak-Es-Rokak\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT.csproj",
-        "packagesPath": "C:\\Users\\adika\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adika\\Documents\\GitHub\\IKT-Nyulak-Es-Rokak\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT\\obj\\",
+        "projectPath": "C:\\Users\\Pippo\\Documents\\GitHub\\IKT-Nyulak-Es-Rokak\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT.csproj",
+        "packagesPath": "C:\\Users\\Pippo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pippo\\Documents\\GitHub\\IKT-Nyulak-Es-Rokak\\NyulakEsRokak-IKT\\NyulakEsRokak-IKT\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\adika\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pippo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

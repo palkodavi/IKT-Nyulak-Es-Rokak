@@ -1,0 +1,14 @@
+C:\Users\Pippo\Documents\GitHub\IKT-Nyulak-Es-Rokak\NyulakEsRokak-IKT\NyulakEsRokak-IKT\bin\Debug\net6.0\NyulakEsRokak-IKT.exe
+C:\Users\Pippo\Documents\GitHub\IKT-Nyulak-Es-Rokak\NyulakEsRokak-IKT\NyulakEsRokak-IKT\bin\Debug\net6.0\NyulakEsRokak-IKT.deps.json
+C:\Users\Pippo\Documents\GitHub\IKT-Nyulak-Es-Rokak\NyulakEsRokak-IKT\NyulakEsRokak-IKT\bin\Debug\net6.0\NyulakEsRokak-IKT.runtimeconfig.json
+C:\Users\Pippo\Documents\GitHub\IKT-Nyulak-Es-Rokak\NyulakEsRokak-IKT\NyulakEsRokak-IKT\bin\Debug\net6.0\NyulakEsRokak-IKT.dll
+C:\Users\Pippo\Documents\GitHub\IKT-Nyulak-Es-Rokak\NyulakEsRokak-IKT\NyulakEsRokak-IKT\bin\Debug\net6.0\NyulakEsRokak-IKT.pdb
+C:\Users\Pippo\Documents\GitHub\IKT-Nyulak-Es-Rokak\NyulakEsRokak-IKT\NyulakEsRokak-IKT\obj\Debug\net6.0\NyulakEsRokak-IKT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pippo\Documents\GitHub\IKT-Nyulak-Es-Rokak\NyulakEsRokak-IKT\NyulakEsRokak-IKT\obj\Debug\net6.0\NyulakEsRokak-IKT.AssemblyInfoInputs.cache
+C:\Users\Pippo\Documents\GitHub\IKT-Nyulak-Es-Rokak\NyulakEsRokak-IKT\NyulakEsRokak-IKT\obj\Debug\net6.0\NyulakEsRokak-IKT.AssemblyInfo.cs
+C:\Users\Pippo\Documents\GitHub\IKT-Nyulak-Es-Rokak\NyulakEsRokak-IKT\NyulakEsRokak-IKT\obj\Debug\net6.0\NyulakEsRokak-IKT.csproj.CoreCompileInputs.cache
+C:\Users\Pippo\Documents\GitHub\IKT-Nyulak-Es-Rokak\NyulakEsRokak-IKT\NyulakEsRokak-IKT\obj\Debug\net6.0\NyulakEsRokak-IKT.dll
+C:\Users\Pippo\Documents\GitHub\IKT-Nyulak-Es-Rokak\NyulakEsRokak-IKT\NyulakEsRokak-IKT\obj\Debug\net6.0\refint\NyulakEsRokak-IKT.dll
+C:\Users\Pippo\Documents\GitHub\IKT-Nyulak-Es-Rokak\NyulakEsRokak-IKT\NyulakEsRokak-IKT\obj\Debug\net6.0\NyulakEsRokak-IKT.pdb
+C:\Users\Pippo\Documents\GitHub\IKT-Nyulak-Es-Rokak\NyulakEsRokak-IKT\NyulakEsRokak-IKT\obj\Debug\net6.0\NyulakEsRokak-IKT.genruntimeconfig.cache
+C:\Users\Pippo\Documents\GitHub\IKT-Nyulak-Es-Rokak\NyulakEsRokak-IKT\NyulakEsRokak-IKT\obj\Debug\net6.0\ref\NyulakEsRokak-IKT.dll
