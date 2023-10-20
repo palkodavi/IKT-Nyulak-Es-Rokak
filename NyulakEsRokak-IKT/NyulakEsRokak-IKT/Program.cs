@@ -181,5 +181,100 @@ class Program
                 }
             }
         }
-    } 
+    }
+
+    //Nyulak mozgása és táplálkozása -- nem működik megfelelően (segítség kérés!)
+    static void NyulLep(Entitas nyul, List<Entitas> ujNyulak)
+    {
+        int[] mozgasX = { -1, 0, 1, 0 };
+        int[] mozgasY = { 0, -1, 0, 1 };
+
+        // Nyuszi evés
+        for (int i = 0; i < 4; i++)
+        {
+            int newX = nyul.X + mozgasX[i];
+            int newY = nyul.Y + mozgasY[i];
+
+            if (newX >= 0 && newX < szelesseg && newY >= 0 && newY < magassag)
+            {
+                if (grid[newX, newY] == Cellak.ZsengeFu || grid[newX, newY] == Cellak.KifejlettFucsomo)
+                {
+                    nyul.Eszik(grid[newX, newY] == Cellak.ZsengeFu ? 1 : 2);
+                    grid[newX, newY] = Cellak.Nyul;
+                    nyul.Mozgas(newX, newY);
+                    return;
+                }
+            }
+        }
+
+        // Nyuszi mozgása
+        for (int i = 0; i < 4; i++)
+        {
+            int newX = nyul.X + mozgasX[i];
+            int newY = nyul.Y + mozgasY[i];
+
+            if (newX >= 0 && newX < szelesseg && newY >= 0 && newY < magassag &&
+                grid[newX, newY] == Cellak.Ures)
+            {
+                Entitas ujNyul = new Entitas(newX, newY);
+                ujNyulak.Add(ujNyul);
+                grid[ujNyul.X, ujNyul.Y] = Cellak.Nyul;
+                nyul.Mozgas(newX, newY);
+                return;
+            }
+        }
+    }
+    //A róka mozgása és táplálkozása -- nem műküdik megfelelően(segítség kérés!)
+    static void RokaLep(Entitas roka, List<Entitas> ujRokak)
+    {
+        int[] mozgasX = { -1, 0, 1, 0 };
+        int[] mozgasY = { 0, -1, 0, 1 };
+
+        // Róka táplálkozása
+        for (int i = 0; i < 4; i++)
+        {
+            int newX = roka.X + mozgasX[i];
+            int newY = roka.Y + mozgasY[i];
+
+            if (newX >= 0 && newX < szelesseg && newY >= 0 && newY < magassag)
+            {
+                if (grid[newX, newY] == Cellak.Nyul)
+                {
+                    Entitas nyul = nyulak.FirstOrDefault(n => n.X == newX && n.Y == newY);
+                    if (nyul != null && nyul.Jollakottsag > 0)
+                    {
+                        nyul.Jollakottsag -= 3;
+                        roka.Eszik(3);
+                        nyulak.Remove(nyul);
+                        roka.Mozgas(newX, newY);
+                        grid[roka.X, roka.Y] = Cellak.Roka;
+                        return;
+                    }
+                }
+                else if (grid[newX, newY] == Cellak.Ures)
+                {
+                    roka.Mozgas(newX, newY);
+                    grid[roka.X, roka.Y] = Cellak.Roka;
+                    return;
+                }
+            }
+        }
+
+        // Róka mozgása
+        for (int i = 0; i < 4; i++)
+        {
+            int newX = roka.X + mozgasX[i];
+            int newY = roka.Y + mozgasY[i];
+
+            if (newX >= 0 && newX < szelesseg && newY >= 0 && newY < magassag &&
+                grid[newX, newY] == Cellak.Ures)
+            {
+                Entitas ujRoka = new Entitas(newX, newY);
+                ujRokak.Add(ujRoka);
+                grid[ujRoka.X, ujRoka.Y] = Cellak.Roka;
+                roka.Mozgas(newX, newY);
+                return;
+            }
+        }
+    }
 }
